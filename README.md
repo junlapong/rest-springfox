@@ -14,7 +14,7 @@ mvn tomcat7:run
 
 1. Testing Swagger 2.0 JSON API documentation
 
-   http://localhost:8080/rest-springfox/v2/api-docs
+    http://localhost:8080/rest-springfox/v2/api-docs
 
 2. Testing Swagger UI
 

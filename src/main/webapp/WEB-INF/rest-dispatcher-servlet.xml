@@ -20,12 +20,9 @@
 	<mvc:annotation-driven>
 		<mvc:message-converters>
 			<!-- Configure bean to convert JSON to POJO and vice versa -->
-			<bean
-				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
-			</bean>
+			<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
 			<!-- Configure bean to convert XML to POJO and vice versa -->
-			<bean
-				class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
+			<bean class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
 			<bean class="org.springframework.http.converter.StringHttpMessageConverter" />
 		</mvc:message-converters>
 	</mvc:annotation-driven>
